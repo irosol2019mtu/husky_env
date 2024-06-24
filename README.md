@@ -1,7 +1,11 @@
 # Husky Gazebo Environment
-### ROS Packages for Husky Robot
+### Clearpath Playpen
 
 ![](https://github.com/irosol2019mtu/husky_env/blob/main/playpen.jpg)
+
+### Agriculture
+
+![](https://github.com/irosol2019mtu/husky_env/blob/main/agriculture.jpg)
 
 ## Dependencies
 
