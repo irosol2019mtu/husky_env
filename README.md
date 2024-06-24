@@ -51,11 +51,11 @@ catkin_make
 ## Gazebo Environment Usage
 
 1. Playpen:
-    ```bash
+  ```bash
 roslaunch husky_gazebo husky_playpen.launch
-    ```
+  ```
 
 2. Agriculture:
-    ```bash
+  ```bash
 roslaunch cpr_agriculture_gazebo agriculture_world.launch
-    ```
+  ```
