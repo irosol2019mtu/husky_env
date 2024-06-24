@@ -26,7 +26,7 @@
 
 1. Create a workspace
   ```bash
-  $ mkdir -p husky_ws/src
+mkdir -p husky_ws/src
   ```
 2. Change the directory to the source space (`src`) of your workspace
   ```bash
