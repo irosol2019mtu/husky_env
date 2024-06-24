@@ -1,7 +1,7 @@
 # Husky Gazebo Environment
 ### ROS Packages for Husky Robot
 
-![](https://github.com/Tinker-Twins/Husky/blob/main/Husky.png)
+![](https://github.com/irosol2019mtu/husky_env/edit/main/playpen.jpg)
 
 ## Dependencies
 
