@@ -22,32 +22,32 @@
  - rviz_imu_plugin: `$ sudo apt-get install ros-noetic-rviz-imu-plugin`
  - gmapping: `$ sudo apt-get install ros-noetic-gmapping`
 
-## Installation
+## Installation Guide
 
 1. Create a workspace
   ```bash
   $ mkdir -p husky_ws/src
   ```
-2. Change directory to the source space (`src`) of your workspace
+2. Change the directory to the source space (`src`) of your workspace
   ```bash
   $ cd husky_ws/src
   ```
-3. Clone repository:
+3. Clone repository
   ```bash
   $ git clone https://github.com/Tinker-Twins/Husky.git
   $ git clone https://github.com/clearpathrobotics/cpr_gazebo.git
 
   ```
-4. Change directory back to the workspace:
+4. Change the directory back to the workspace
   ```bash
   $ cd ..
   ```
-5. Build the packages:
+5. Build the packages
   ```bash
   $ catkin_make
   ```
 
-## Usage:
+## Gazebo Environment Usage
 
 1. Playpen:
     ```bash
