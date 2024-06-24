@@ -35,8 +35,9 @@ cd husky_ws/src
 3. Clone repository
   ```bash
 git clone https://github.com/Tinker-Twins/Husky.git
+  ```
+  ```bash
 git clone https://github.com/clearpathrobotics/cpr_gazebo.git
-
   ```
 4. Change the directory back to the workspace
   ```bash
