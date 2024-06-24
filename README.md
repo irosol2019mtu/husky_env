@@ -48,7 +48,7 @@ cd ..
 catkin_make
   ```
 
-## Gazebo Environment Usage
+## Gazebo Environment Launch
 
 1. Playpen:
   ```bash
