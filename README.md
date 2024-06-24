@@ -24,22 +24,21 @@
 
 ## Installation
 
-1. Create a Catkin workspace (if not already present)
+1. Create a workspace
   ```bash
-  $ mkdir -p catkin_ws/src
+  $ mkdir -p husky_ws/src
   ```
-2. Change directory to the source space (`src`) of your Catkin workspace
+2. Change directory to the source space (`src`) of your workspace
   ```bash
-  $ cd catkin_ws/src
+  $ cd husky_ws/src
   ```
-3. Clone this repository:
+3. Clone repository:
   ```bash
   $ git clone https://github.com/Tinker-Twins/Husky.git
   $ git clone https://github.com/clearpathrobotics/cpr_gazebo.git
-  $ git clone https://github.com/EuropeanRoverChallenge/ERC-Remote-Navigation-Sim.git
 
   ```
-4. Change directory back to the Catkin workspace:
+4. Change directory back to the workspace:
   ```bash
   $ cd ..
   ```
@@ -50,51 +49,12 @@
 
 ## Usage:
 
-1. Keyboard Teleoperation:
+1. Playpen:
     ```bash
     $ roslaunch husky_gazebo husky_playpen.launch
-    $ roslaunch husky_control teleop_keyboard.launch
     ```
 
-2. Map-Less Navigation:
+2. Agriculture:
     ```bash
-    $ roslaunch husky_gazebo husky_playpen.launch
-    $ roslaunch husky_viz view_robot.launch
-    $ roslaunch husky_navigation map_less_navigation.launch
+    $ roslaunch cpr_agriculture_gazebo agriculture_world.launch
     ```
-
-3. Simultaneous Localization And Mapping (SLAM):
-    ```bash
-    $ roslaunch husky_gazebo husky_playpen.launch
-    $ roslaunch husky_viz view_robot.launch
-    $ roslaunch husky_navigation gmapping.launch
-    $ roslaunch husky_control teleop_keyboard.launch
-    ```
-    To save generated map to current working directory, run:
-    ```bash
-    $ rosrun map_server map_saver -f <filename>
-    ```
-
-4. Adaptive Monte Carlo Localization (AMCL):
-    ```bash
-    $ roslaunch husky_gazebo husky_playpen.launch
-    $ roslaunch husky_viz view_robot.launch
-    $ roslaunch husky_navigation amcl.launch
-    $ roslaunch husky_control teleop_keyboard.launch
-    ```
-
-5. Map-Based Navigation:
-    ```bash
-    $ roslaunch husky_gazebo husky_playpen.launch
-    $ roslaunch husky_viz view_robot.launch
-    $ roslaunch husky_navigation map_based_navigation.launch
-    ```
-
-## Video Tutorials:
-
-1. [Installation](https://youtu.be/kXD9GfkbkHk)
-2. [Teleoperation](https://youtu.be/B-4VfZrvVJo)
-3. [Map-Less Navigation](https://youtu.be/3sVrWRfWrEY)
-4. [SLAM](https://youtu.be/-_bC1_xs9TY)
-5. [Map-Based Localization](https://youtu.be/RrX4_UMeTQ8)
-6. [Map-Based Navigation](https://youtu.be/F5OiuIkqxcc)
