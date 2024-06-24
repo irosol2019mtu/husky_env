@@ -30,31 +30,31 @@ mkdir -p husky_ws/src
   ```
 2. Change the directory to the source space (`src`) of your workspace
   ```bash
-  $ cd husky_ws/src
+cd husky_ws/src
   ```
 3. Clone repository
   ```bash
-  $ git clone https://github.com/Tinker-Twins/Husky.git
-  $ git clone https://github.com/clearpathrobotics/cpr_gazebo.git
+git clone https://github.com/Tinker-Twins/Husky.git
+git clone https://github.com/clearpathrobotics/cpr_gazebo.git
 
   ```
 4. Change the directory back to the workspace
   ```bash
-  $ cd ..
+cd ..
   ```
 5. Build the packages
   ```bash
-  $ catkin_make
+catkin_make
   ```
 
 ## Gazebo Environment Usage
 
 1. Playpen:
     ```bash
-    $ roslaunch husky_gazebo husky_playpen.launch
+roslaunch husky_gazebo husky_playpen.launch
     ```
 
 2. Agriculture:
     ```bash
-    $ roslaunch cpr_agriculture_gazebo agriculture_world.launch
+roslaunch cpr_agriculture_gazebo agriculture_world.launch
     ```
